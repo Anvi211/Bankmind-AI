@@ -1,2 +1,0 @@
--- BankMind AI — V1__init_schema.sql
--- Placeholder for baseline schema. Table definitions to be finalized.
