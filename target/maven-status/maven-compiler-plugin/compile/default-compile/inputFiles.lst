@@ -12,7 +12,11 @@ D:\bankmind-ai\src\main\java\com\bankmind\exception\InsufficientEvidenceExceptio
 D:\bankmind-ai\src\main\java\com\bankmind\exception\ResourceNotFoundException.java
 D:\bankmind-ai\src\main\java\com\bankmind\exception\TenantAccessDeniedException.java
 D:\bankmind-ai\src\main\java\com\bankmind\exception\ValidationException.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\LoginEvent.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\LoginOutcome.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\OtpPurpose.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\OtpToken.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\RefreshToken.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\Role.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\User.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\UserStatus.java
