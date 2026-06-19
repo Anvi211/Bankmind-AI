@@ -27,7 +27,7 @@ public class RateLimitFilter extends OncePerRequestFilter {
     ) throws ServletException, IOException {
         String path = request.getRequestURI();
 
-        if (path.startsWith("/auth/")) {
+        if (path.startsWith("/api/v1/auth/")) {
             String ip = getClientIp(request);
             IpRequestTracker tracker = ipTrackers.computeIfAbsent(ip, k -> new IpRequestTracker());
 
