@@ -20,6 +20,10 @@ D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\RefreshToken.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\Role.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\User.java
 D:\bankmind-ai\src\main\java\com\bankmind\module\auth\entity\UserStatus.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\repository\LoginEventRepository.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\repository\OtpTokenRepository.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\repository\RefreshTokenRepository.java
+D:\bankmind-ai\src\main\java\com\bankmind\module\auth\repository\UserRepository.java
 D:\bankmind-ai\src\main\java\com\bankmind\security\JwtAuthFilter.java
 D:\bankmind-ai\src\main\java\com\bankmind\security\JwtProvider.java
 D:\bankmind-ai\src\main\java\com\bankmind\security\RateLimitFilter.java

@@ -19,6 +19,7 @@ com\bankmind\module\auth\entity\OtpPurpose.class
 com\bankmind\config\SchedulerConfig.class
 com\bankmind\exception\DuplicateEmailException.class
 com\bankmind\exception\TenantAccessDeniedException.class
+com\bankmind\module\auth\repository\UserRepository.class
 com\bankmind\config\TenantConfig$1.class
 com\bankmind\config\QdrantConfig.class
 com\bankmind\util\PaginationUtil.class
@@ -29,8 +30,11 @@ com\bankmind\config\FlywayConfig$1.class
 com\bankmind\util\OtpUtil.class
 com\bankmind\config\TenantConfig.class
 com\bankmind\config\SecurityConfig.class
+com\bankmind\module\auth\repository\LoginEventRepository.class
+com\bankmind\module\auth\repository\OtpTokenRepository.class
 com\bankmind\security\JwtAuthFilter.class
 com\bankmind\security\UserDetailsServiceImpl.class
+com\bankmind\module\auth\repository\RefreshTokenRepository.class
 com\bankmind\util\HashUtil.class
 com\bankmind\util\TenantContext.class
 com\bankmind\exception\GlobalExceptionHandler.class
