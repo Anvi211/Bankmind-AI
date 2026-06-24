@@ -86,6 +86,20 @@
             <version>${qdrant.version}</version>
         </dependency>
 
+        <!-- Guava (needed for Qdrant client ListenableFuture compilation) -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>33.2.1-jre</version>
+        </dependency>
+
+        <!-- Protobuf (needed for Qdrant client gRPC compilation) -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.25.3</version>
+        </dependency>
+
         <!-- LangChain4j for AI & RAG -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
@@ -103,6 +117,18 @@
             <groupId>org.apache.pdfbox</groupId>
             <artifactId>pdfbox</artifactId>
             <version>${pdfbox.version}</version>
+        </dependency>
+
+        <!-- Apache Tika for Document Extraction -->
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-parsers-standard-package</artifactId>
+            <version>2.9.2</version>
         </dependency>
 
         <!-- Utilities -->

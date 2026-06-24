@@ -1,0 +1,30 @@
+# BankMind AI Personal Loan Policy and Guidelines
+
+Section 1: Executive Summary
+The BankMind AI Personal Loan Program is designed to provide flexible financial assistance to qualified retail banking customers. This document outlines the comprehensive policy framework, underwriting standards, eligibility criteria, and operational guidelines governing the issuance of personal loans. The program leverages advanced machine learning models to assess creditworthiness while ensuring strict compliance with central banking regulations and fair lending practices. All loan officers and system administrators must adhere to these guidelines to maintain portfolio quality and operational integrity.
+
+Section 2: Borrower Eligibility Criteria
+To qualify for a personal loan under the BankMind AI program, an applicant must satisfy several key criteria. First, the applicant must be a citizen or legal permanent resident of the jurisdiction, aged between 21 and 60 years at the time of loan maturity. Second, the applicant must demonstrate a stable source of income. For salaried individuals, a minimum of 24 months of continuous employment is required, with at least 6 months with the current employer. For self-employed individuals, a minimum of 3 years of business existence verified by tax returns is mandatory.
+Furthermore, applicants must meet the following financial thresholds:
+- A minimum monthly net take-home salary of $3,500.
+- A minimum credit bureau (CIBIL or equivalent) score of 720.
+- A Fixed Obligation to Income Ratio (FOIR) not exceeding 45% of gross monthly income, including the proposed EMI.
+- A clean credit history with no defaults or write-offs in the last 36 months.
+
+Section 3: Mandatory Documentation for Verification
+To ensure a robust risk assessment, applicants must submit the following documents during the online application process:
+- Identification Proof: Valid Passport, Driver's License, or National Identity Card.
+- Address Proof: Recent utility bill (not older than 3 months) or registered rental agreement.
+- Income Proof for Salaried: Salary slips for the last 3 months, bank statements for the last 6 months showing salary credits, and the latest Form 16 or income tax returns.
+- Income Proof for Self-Employed: Audited financial statements for the last 2 years, bank statements for the last 12 months, and tax computation reports.
+Any discrepancies in the uploaded documents will result in automatic rejection by the BankMind AI pre-screening engine, and the customer will be notified to re-submit valid proofs within 5 business days.
+
+Section 4: Interest Rates, Fees, and Loan Limits
+Interest rates for BankMind AI personal loans are floating and linked to the bank's Marginal Cost of Funds Based Lending Rate (MCLR). The final rate offered to a borrower is determined by their credit score and risk tier. Risk Tier A (750+ credit score) enjoys rates from 8.5% to 10.5% per annum. Risk Tier B (720-749 credit score) is offered rates from 10.6% to 12.5% per annum.
+The loan limit ranges from a minimum of $5,000 to a maximum of $50,000, depending on the borrower's repayment capacity. Processing fees of 1.5% to 2.5% of the loan amount are charged upfront and deducted from the disbursed amount.
+
+Section 5: Repayment and Prepayment Terms
+The loan repayment tenure ranges from 12 to 60 months, repayable in Equated Monthly Installments (EMIs). EMIs are processed via National Automated Clearing House (NACH) or electronic standing instructions on the borrower's salary account. Prepayment or foreclosure of the loan is permitted after the payment of 12 consecutive EMIs. A foreclosure fee of 3% on the outstanding principal balance is applicable for prepayments made within 24 months, after which no prepayment penalty is levied.
+
+Section 6: Compliance and Legal Framework
+All personal loans must comply with the Fair Lending Act and local banking directives. The BankMind AI model must be regularly audited to prevent algorithmic bias based on gender, race, religion, or ethnicity. Detailed audit logs of all credit decisions, automated approvals, and manual overrides must be stored securely for a minimum of 7 years in the compliance repository.

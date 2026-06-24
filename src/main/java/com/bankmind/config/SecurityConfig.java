@@ -44,11 +44,13 @@ public class SecurityConfig {
             .cors(Customizer.withDefaults())
             .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authorizeHttpRequests(auth -> auth
-                .requestMatchers("/api/v1/auth/**").permitAll()
-                .requestMatchers("/error").permitAll()
-                .requestMatchers("/admin/**").hasRole("ADMIN")
-                .anyRequest().authenticated()
-            )
+    .requestMatchers("/api/v1/auth/**").permitAll()
+    .requestMatchers("/api/v1/documents/**").permitAll()
+    .requestMatchers("/api/v1/search/**").permitAll()
+    .requestMatchers("/error").permitAll()
+    .requestMatchers("/admin/**").hasRole("ADMIN")
+    .anyRequest().authenticated()
+)
             .authenticationProvider(authenticationProvider())
             .addFilterBefore(rateLimitFilter, UsernamePasswordAuthenticationFilter.class)
             .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
